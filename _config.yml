@@ -30,9 +30,9 @@ canonical: true
 menu:
   home: /
   #categories: /categories
-  #about: /about
   archives: /archives
-  tags: /tags
+  # tags: /tags
+  # about: /about
   #commonweal: /404.html
 
 
@@ -59,8 +59,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+# scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -169,9 +169,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggler.
-  display: post
+  # display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
 
@@ -233,7 +233,9 @@ mathjax:
   enable: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-
+# Local Search
+local_search:
+  enable: true
 # Swiftype Search API Key
 #swiftype_key:
 
