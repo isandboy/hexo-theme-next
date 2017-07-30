@@ -141,7 +141,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-# avatar:
+#avatar:
 
 
 # Table Of Contents in the Sidebar
@@ -251,11 +251,11 @@ local_search:
 # Baidu Share
 # Available value:
 #    button | slide
-baidushare: true
- type: button
+# baidushare: true
+ # type: button
 
 # Share
-# jiathis: true
+jiathis: true
 #add_this_id:
 
 # Share
